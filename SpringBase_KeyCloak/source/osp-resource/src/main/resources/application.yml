@@ -1,0 +1,39 @@
+app:
+  name: APP_NAME
+
+server:
+  port: 8888
+
+settings:
+  keycloak:
+    user-info: userinfo
+    token:
+      get: token
+      introspect: token/introspect
+    base-url: http://localhost:8080/auth/realms/siten/protocol/openid-connect/
+    grant-type: password
+    refresh-token:
+      grant-type: refresh_token
+    root-user:
+      username: root
+      password: 12345
+    admin:
+      client-id: admin-cli
+
+
+
+keycloak:
+  realm: siten
+  auth-server-url: http://localhost:8080/auth
+  ssl-required: external
+  resource: login
+  credentials:
+    secret: 5a179c34-b13d-43c9-8a74-092f41c6d6f4
+  use-resource-role-mappings: true
+  bearer-only: false
+  cors: true
+
+
+logging:
+  level:
+    co.siten.osp.resource: DEBUG

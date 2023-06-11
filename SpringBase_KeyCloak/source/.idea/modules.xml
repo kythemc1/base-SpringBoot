@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Source.iml" filepath="$PROJECT_DIR$/.idea/Source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-birt/osp-birt.iml" filepath="$PROJECT_DIR$/osp-birt/osp-birt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-common/osp-common.iml" filepath="$PROJECT_DIR$/osp-common/osp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-discovery/osp-discovery.iml" filepath="$PROJECT_DIR$/osp-discovery/osp-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-gateway/osp-gateway.iml" filepath="$PROJECT_DIR$/osp-gateway/osp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-resource/osp-resource.iml" filepath="$PROJECT_DIR$/osp-resource/osp-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osp-ui/osp-ui.iml" filepath="$PROJECT_DIR$/osp-ui/osp-ui.iml" />
+    </modules>
+  </component>
+</project>

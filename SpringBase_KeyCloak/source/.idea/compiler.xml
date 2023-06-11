@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="osp-resource" />
+        <module name="osp-gateway" />
+        <module name="osp-birt" />
+        <module name="osp-common" />
+        <module name="osp-discovery" />
+        <module name="osp-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="osp-birt" target="1.8" />
+      <module name="osp-common" target="1.8" />
+      <module name="osp-discovery" target="1.8" />
+      <module name="osp-gateway" target="1.8" />
+      <module name="osp-resource" target="1.8" />
+      <module name="osp-ui" target="1.8" />
+      <module name="Source" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="osp-birt" options="-parameters" />
+      <module name="osp-common" options="-parameters" />
+      <module name="osp-discovery" options="-parameters" />
+      <module name="osp-gateway" options="-parameters" />
+      <module name="osp-resource" options="-parameters" />
+      <module name="osp-ui" options="-parameters" />
+    </option>
+  </component>
+</project>

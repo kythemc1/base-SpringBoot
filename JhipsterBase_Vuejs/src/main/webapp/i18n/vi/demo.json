@@ -1,0 +1,23 @@
+{
+  "sitenJhipsterBaseApp": {
+    "demo": {
+      "home": {
+        "title": "Demos",
+        "createLabel": "Thêm mới một Demo",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Demo",
+        "notFound": "No Demos found"
+      },
+      "created": "Một Demo mới được tạo với định danh {{ param }}",
+      "updated": "Một Demo cập nhật với định danh {{ param }}",
+      "deleted": "Một Demo đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Demo {{ id }}?"
+      },
+      "detail": {
+        "title": "Demo"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}
